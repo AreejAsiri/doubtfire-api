@@ -9,7 +9,7 @@ services:
       - ./:/doubtfire-api
       - /doubtfire-api/.bundle
       - /doubtfire-api/tmp
- 
+    
     depends_on:
       - db
     environment:
